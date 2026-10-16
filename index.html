@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aaron Paderes — IT student and aspiring web developer portfolio.">
+  <title>Aaron Paderes | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">AP<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="contact-link" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-heading">
+        <p class="eyebrow"><span class="dot"></span> INFORMATION TECHNOLOGY STUDENT</p>
+        <h1>Aaron <span class="at">@</span><br>Paderes<span class="green-text">.</span></h1>
+      </div>
+      <div class="hero-bottom">
+        <div class="hero-text">
+          <p>I'm an IT student learning to build useful websites, programs, and digital experiences. This is my space to share what I'm learning and creating.</p>
+          <a class="button" href="#projects">Explore my work <span>↘</span></a>
+        </div>
+        <div class="portrait" aria-label="Profile illustration">
+          <div class="portrait-placeholder"><span>AP</span><small>YOUR PHOTO HERE</small></div>
+        </div>
+      </div>
+      <p class="hero-decoration">LEARN · BUILD · IMPROVE</p>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="section-label">01 / ABOUT ME</p>
+      <div class="about-layout">
+        <h2>Curious mind.<br><span>Growing skills.</span></h2>
+        <div class="about-copy">
+          <p>Hi! I'm Aaron Daniel S. Paderes, an Information Technology student. I'm building my knowledge in web development, programming, and database systems one project at a time.</p>
+          <p>I believe the best way to learn is to practice, make mistakes, and keep improving. My goal is to become a skilled developer and create projects that solve real problems.</p>
+          <div class="pills"><span>Problem solving</span><span>Continuous learning</span><span>Creative thinking</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <p class="section-label">02 / WHAT I'M LEARNING</p>
+      <h2>Tools in my <span>toolbox.</span></h2>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">&lt;/&gt;</div><h3>HTML & CSS</h3><p>Building structured pages and styling responsive layouts.</p><span class="skill-tag">WEB DESIGN</span></article>
+        <article class="feature-card"><div class="feature-icon">JS</div><h3>JavaScript</h3><p>Learning to make websites interactive and dynamic.</p><span class="skill-tag">INTERACTIVITY</span></article>
+        <article class="feature-card"><div class="feature-icon">Py</div><h3>Python & C++</h3><p>Practicing programming logic, functions, and object-oriented programming.</p><span class="skill-tag">PROGRAMMING</span></article>
+        <article class="feature-card"><div class="feature-icon">DB</div><h3>MySQL</h3><p>Learning tables, queries, and basic database operations.</p><span class="skill-tag">DATABASES</span></article>
+        <article class="feature-card"><div class="feature-icon">Git</div><h3>Git & GitHub</h3><p>Learning how to save, manage, and publish project code.</p><span class="skill-tag">VERSION CONTROL</span></article>
+        <article class="feature-card feature-highlight"><p class="big-symbol">+</p><h3>Always learning</h3><p>Adding new tools and skills as I gain more experience.</p><a href="#contact" class="inline-link">Let's connect ↗</a></article>
+      </div>
+      <p class="note">These are learning areas, not professional certifications. I'll update this section as I improve.</p>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="process-intro"><p class="section-label">03 / MY APPROACH</p><h2>Small steps.<br><span>Real progress.</span></h2><p>I try to keep my work simple, organized, and easy to understand.</p></div>
+      <div class="steps">
+        <article class="step"><span>01</span><div><h3>Learn</h3><p>Understand the topic and explore examples before starting.</p></div></article>
+        <article class="step"><span>02</span><div><h3>Build</h3><p>Practice by turning ideas and lessons into small projects.</p></div></article>
+        <article class="step"><span>03</span><div><h3>Improve</h3><p>Test my work, fix problems, and make the result better.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <p class="section-label">04 / SELECTED PRACTICE WORK</p>
+      <h2>Things I'm <span>building.</span></h2>
+      <p class="section-intro">These are sample project descriptions to help you set up the portfolio. Replace them with your actual completed projects before submitting.</p>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-art art-one"><span>01</span><div class="browser-art"><div class="browser-dots">● ● ●</div><strong>Study Tips</strong><p>Build better habits.</p><div class="fake-line"></div><div class="fake-line short"></div></div></div><div class="project-info"><p class="project-type">HTML · CSS</p><h3>Study Tips Website</h3><p>A simple student website with study advice, a routine, and reminders.</p></div></article>
+        <article class="project-card"><div class="project-art art-two"><span>02</span><div class="terminal-art"><p>&gt; student_system</p><p>&gt; validate_input()</p><b>Program ready_</b></div></div><div class="project-info"><p class="project-type">PYTHON · OOP</p><h3>Student Registration</h3><p>A practice program for entering student details and checking inputs.</p></div></article>
+        <article class="project-card"><div class="project-art art-three"><span>03</span><div class="database-art"><b>STUDENTS</b><b>COURSES</b><b>PAYMENTS</b></div></div><div class="project-info"><p class="project-type">MYSQL · SQL</p><h3>Database Practice</h3><p>A basic database exercise using tables and CRUD operations.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="section-label">05 / GET IN TOUCH</p>
+      <h2>Let's make<br>something <span>useful.</span></h2>
+      <p>I'm always interested in learning, collaborating, and connecting with other students and developers.</p>
+      <div class="contact-links">
+        <!-- Replace the email below with your real email address. -->
+        <a class="button" href="mailto:your.email@example.com">Email me ↗</a>
+        <!-- Replace YOUR-USERNAME with your GitHub username. -->
+        <a class="outline-button" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">AP<span>.</span></a><p>Designed and coded with HTML, CSS & JavaScript.</p><p>© <span id="year"></span> Aaron Paderes</p></footer>
+</body>
+</html>
